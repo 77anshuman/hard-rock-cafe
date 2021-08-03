@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="css/stylesignup.css">
+</head>
+<body>
+	<header>
+        <nav>
+            <div class="row clearfix">
+                <img src="signup\logo1.jpg" class="logo">
+
+                <ul class="main-nav animated slideInDown" id="check-class">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="#">REGISTER</a></li>
+                    <li><a href="index.html">FEEDBACK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    
+                </ul>
+                <a href="#" class="mobileicon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>                  
+              </div>
+        </nav>
+	<div class="regform"><h1>Registration</h1></div>
+	<div class="main">
+		<form>
+			<div id="name">
+				<h2 class="name">Name</h2>
+				<input type="text" class="firstname" name="first_name"><br>
+				<label class="firstlabel">firstname</label>
+				<input class="lastname" type="text" name="last_name">
+				<label class="lastlabel">last name</label>
+			</div>
+			<h2 class="name">Date Of Birth</h2>
+			<input class="dob" type="date" name="date_of_birth">
+
+			<h2 class="name">Email</h2>
+			<input class="email" type="text" name="email" placeholder="Email">
+
+			<h2 class="name">Phone Number</h2>
+			<input class="code" type="number" name="country_code" placeholder="+91">
+			<label class="country-code">Country Code</label>
+			<input class="number" type="number" name="phone">
+			<label class="phone-number">Phone Number</label>
+
+			<h2 class="name">Username</h2>
+			<input class="username" type="text" name="username">
+			<label class="userlabel">UserName</label>
+
+			<h2 class="name">Password</h2>
+			<input class="password" type="password" name="password">
+			<label class="pass_word">Password</label>
+
+			<button type="submit"><a href="signup\successfull.html">Register</a></button>
+			<h2 class="link">Already A Member <a href="login.html" style="color:#e63946">Log In</a></h2>
+		</form>
+	</div>
+</header>
+</body>
+</html>

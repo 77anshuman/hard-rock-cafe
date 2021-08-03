@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration page</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="login\logo1.jpg" class="logo">
+
+                <ul class="main-nav animated slideInDown" id="check-class">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="signup.html">REGISTER</a></li>
+                    <li><a href="index.html">FEEDBACK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    
+                </ul>
+                <a href="#" class="mobileicon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>                  
+              </div>
+        </nav>
+    <div class="bg">
+        <div class="main">
+            <div class="button-top">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn"><strong>Log In</strong></button>
+                
+            </div>
+            <div class="social-icons">
+                <img src="login/Facebook.jpg">
+                <img src="login/download.png">
+                <img src="login/google.png">
+            </div>
+            <form action="order.html" id="login" class="input-group">
+                <div><input type="text" class="input-field" placeholder="User Id" name="username" required>
+                    
+                    <div><input type="password" class="input-field" placeholder="Enter Password" name="Password" required>
+                      
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <input type="submit" class="submit-btn" placeholder="Login">
+            </form>
+
+        </div>
+    </div>
+</header>
+</body>
+</html>
